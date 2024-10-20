@@ -1,19 +1,40 @@
-# car_workshop
+# Car Workshop Booking Application
 
-A new Flutter project created with FlutLab - https://flutlab.io
+A cross-platform mobile application built using Flutter and Firebase. This app allows users to create car servicing bookings, view a calendar of bookings, and manage tasks in a car workshop environment.
 
-## Getting Started
+## Features
+- User Authentication (Admin/Mechanic roles)
+- Create and manage bookings
+- Assign mechanics to bookings
+- Calendar view for daily/weekly/monthly bookings
+- Real-time sync with Firebase
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
+- Flutter
+- Firebase Authentication & Firestore
+- GetX for state management
+- Google Fonts API for UI design
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+## Setup and Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/car_workshop.git
+    cd car_workshop
+    ```
+2. Install the dependencies:
+    ```bash
+    flutter pub get
+    ```
+3. Run the app:
+    ```bash
+    flutter run
+    ```
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contributing
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Push your changes (`git push origin feature/your-feature`).
+4. Submit a pull request.
 
-## Getting Started: FlutLab - Flutter Online IDE
-
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+## License
+[Your License Here]
